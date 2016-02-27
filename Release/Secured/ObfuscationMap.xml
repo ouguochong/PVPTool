@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CliSecure Version="5.4.1.1" Time="1/26/2012 9:02:58 PM">
+  <Module N="PVPTool, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+  <Type N="&lt;Module&gt;">
+    <Method N="[System.Runtime.CompilerServices.CallConvCdecl] Void Main()" ON="5xM=" />
+    <Method N="Void SendPacket(String dataString)" ON="6BM=" />
+    <Method N="[System.Runtime.CompilerServices.CallConvCdecl] [System.Runtime.CompilerServices.IsLong] UInt32 ReadPointer([System.Runtime.CompilerServices.IsLong] UInt32 ulBase, Int32 iOffset)" ON="6hM=" />
+    <Method N="[System.Runtime.CompilerServices.CallConvCdecl] Boolean WritePointer([System.Runtime.CompilerServices.IsLong] UInt32, Int32 ulBase, Int32 iOffset)" ON="7RM=" />
+    <Method N="[System.Runtime.CompilerServices.CallConvCdecl] Void SendKOPackets()" ON="8hM=" />
+    <Method N="[System.Runtime.CompilerServices.CallConvCdecl] Void KOExploitFunc()" ON="8xM=" />
+    <Method N="[System.Runtime.CompilerServices.CallConvCdecl] Void Teleport(Int32 x, Int32 y)" ON="9BM=" />
+    <Method N="[System.Runtime.CompilerServices.CallConvCdecl] Boolean &lt;CrtImplementationDetails&gt;.NativeDll.IsSafeForManagedCode()" ON="9xM=" />
+    <Method N="Void &lt;CrtImplementationDetails&gt;.ThrowNestedModuleLoadException(System.Exception innerException, System.Exception nestedException)" ON="/RM=" />
+    <Method N="System.Guid &lt;CrtImplementationDetails&gt;.FromGUID([System.Runtime.CompilerServices.IsImplicitlyDereferenced] [System.Runtime.CompilerServices.IsConst] _GUID* guid)" ON="ABQ=" />
+    <Method N="[System.Runtime.CompilerServices.CallConvCdecl] [System.Runtime.CompilerServices.IsLong] Int32 __get_default_appdomain(IUnknown** ppUnk)" ON="AhQ=" />
+    <Method N="System.AppDomain &lt;CrtImplementationDetails&gt;.GetDefaultDomain()" ON="BBQ=" />
+    <Method N="[System.Runtime.CompilerServices.CallConvCdecl] Void &lt;CrtImplementationDetails&gt;.DoCallBackInDefaultDomain([System.Runtime.CompilerServices.CallConvStdcall] [System.Runtime.CompilerServices.IsLong] Int32 *(Void*) function, Void* cookie)" ON="BRQ=" />
+    <Method N="[System.Runtime.CompilerServices.CallConvStdcall] [System.Runtime.CompilerServices.IsLong] Int32 &lt;CrtImplementationDetails&gt;.DefaultDomain.DoNothing(Void* cookie)" ON="CBQ=" />
+    <Method N="[System.Runtime.CompilerServices.CallConvCdecl] Boolean &lt;CrtImplementationDetails&gt;.DefaultDomain.HasPerProcess()" ON="ChQ=" />
+    <Method N="[System.Runtime.CompilerServices.CallConvCdecl] Boolean &lt;CrtImplementationDetails&gt;.DefaultDomain.HasNative()" ON="DBQ=" />
+    <Method N="[System.Runtime.CompilerServices.CallConvCdecl] Boolean &lt;CrtImplementationDetails&gt;.DefaultDomain.NeedsInitialization()" ON="DhQ=" />
+    <Method N="[System.Runtime.CompilerServices.CallConvCdecl] Void &lt;CrtImplementationDetails&gt;.DefaultDomain.Initialize()" ON="EBQ=" />
+    <Method N="Void ?A0xfd8b67b9.??__E?Initialized@CurrentDomain@&lt;CrtImplementationDetails&gt;@@$$Q2HA@@YMXXZ()" ON="ERQ=" />
+    <Method N="Void ?A0xfd8b67b9.??__E?Uninitialized@CurrentDomain@&lt;CrtImplementationDetails&gt;@@$$Q2HA@@YMXXZ()" ON="EhQ=" />
+    <Method N="Void ?A0xfd8b67b9.??__E?IsDefaultDomain@CurrentDomain@&lt;CrtImplementationDetails&gt;@@$$Q2_NA@@YMXXZ()" ON="ExQ=" />
+    <Method N="Void ?A0xfd8b67b9.??__E?InitializedVtables@CurrentDomain@&lt;CrtImplementationDetails&gt;@@$$Q2W4State@Progress@2@A@@YMXXZ()" ON="FBQ=" />
+    <Method N="Void ?A0xfd8b67b9.??__E?InitializedNative@CurrentDomain@&lt;CrtImplementationDetails&gt;@@$$Q2W4State@Progress@2@A@@YMXXZ()" ON="FRQ=" />
+    <Method N="Void ?A0xfd8b67b9.??__E?InitializedPerProcess@CurrentDomain@&lt;CrtImplementationDetails&gt;@@$$Q2W4State@Progress@2@A@@YMXXZ()" ON="FhQ=" />
+    <Method N="Void ?A0xfd8b67b9.??__E?InitializedPerAppDomain@CurrentDomain@&lt;CrtImplementationDetails&gt;@@$$Q2W4State@Progress@2@A@@YMXXZ()" ON="FxQ=" />
+    <Method N="[System.Runtime.CompilerServices.CallConvThiscall] Void &lt;CrtImplementationDetails&gt;.LanguageSupport.InitializeVtables([System.Runtime.CompilerServices.IsConst] [System.Runtime.CompilerServices.IsConst] &lt;CrtImplementationDetails&gt;.LanguageSupport*)" ON="GBQ=" />
+    <Method N="[System.Runtime.CompilerServices.CallConvThiscall] Void &lt;CrtImplementationDetails&gt;.LanguageSupport.InitializeDefaultAppDomain([System.Runtime.CompilerServices.IsConst] [System.Runtime.CompilerServices.IsConst] &lt;CrtImplementationDetails&gt;.LanguageSupport*)" ON="GRQ=" />
+    <Method N="[System.Runtime.CompilerServices.CallConvThiscall] Void &lt;CrtImplementationDetails&gt;.LanguageSupport.InitializeNative([System.Runtime.CompilerServices.IsConst] [System.Runtime.CompilerServices.IsConst] &lt;CrtImplementationDetails&gt;.LanguageSupport*)" ON="GhQ=" />
+    <Method N="[System.Runtime.CompilerServices.CallConvThiscall] Void &lt;CrtImplementationDetails&gt;.LanguageSupport.InitializePerProcess([System.Runtime.CompilerServices.IsConst] [System.Runtime.CompilerServices.IsConst] &lt;CrtImplementationDetails&gt;.LanguageSupport*)" ON="GxQ=" />
+    <Method N="[System.Runtime.CompilerServices.CallConvThiscall] Void &lt;CrtImplementationDetails&gt;.LanguageSupport.InitializePerAppDomain([System.Runtime.CompilerServices.IsConst] [System.Runtime.CompilerServices.IsConst] &lt;CrtImplementationDetails&gt;.LanguageSupport*)" ON="HBQ=" />
+    <Method N="[System.Runtime.CompilerServices.CallConvThiscall] Void &lt;CrtImplementationDetails&gt;.LanguageSupport.InitializeUninitializer([System.Runtime.CompilerServices.IsConst] [System.Runtime.CompilerServices.IsConst] &lt;CrtImplementationDetails&gt;.LanguageSupport*)" ON="HRQ=" />
+    <Method N="[System.Runtime.CompilerServices.CallConvThiscall] Void &lt;CrtImplementationDetails&gt;.LanguageSupport._Initialize([System.Runtime.CompilerServices.IsConst] [System.Runtime.CompilerServices.IsConst] &lt;CrtImplementationDetails&gt;.LanguageSupport*)" ON="HhQ=" />
+    <Method N="[System.Runtime.CompilerServices.CallConvCdecl] Void &lt;CrtImplementationDetails&gt;.LanguageSupport.UninitializeAppDomain()" ON="HxQ=" />
+    <Method N="[System.Runtime.CompilerServices.CallConvStdcall] [System.Runtime.CompilerServices.IsLong] Int32 &lt;CrtImplementationDetails&gt;.LanguageSupport._UninitializeDefaultDomain(Void* cookie)" ON="IBQ=" />
+    <Method N="[System.Runtime.CompilerServices.CallConvCdecl] Void &lt;CrtImplementationDetails&gt;.LanguageSupport.UninitializeDefaultDomain()" ON="IhQ=" />
+    <Method N="Void &lt;CrtImplementationDetails&gt;.LanguageSupport.DomainUnload(Object source, System.EventArgs arguments)" ON="IxQ=" />
+    <Method N="Void &lt;CrtImplementationDetails&gt;.LanguageSupport.Cleanup([System.Runtime.CompilerServices.IsConst] [System.Runtime.CompilerServices.IsConst] &lt;CrtImplementationDetails&gt;.LanguageSupport* innerException, System.Exception)" ON="JhQ=" />
+    <Method N="[System.Runtime.CompilerServices.CallConvThiscall] &lt;CrtImplementationDetails&gt;.LanguageSupport* &lt;CrtImplementationDetails&gt;.LanguageSupport.{ctor}([System.Runtime.CompilerServices.IsConst] [System.Runtime.CompilerServices.IsConst] &lt;CrtImplementationDetails&gt;.LanguageSupport*)" ON="KBQ=" />
+    <Method N="[System.Runtime.CompilerServices.CallConvThiscall] Void &lt;CrtImplementationDetails&gt;.LanguageSupport.{dtor}([System.Runtime.CompilerServices.IsConst] [System.Runtime.CompilerServices.IsConst] &lt;CrtImplementationDetails&gt;.LanguageSupport*)" ON="KRQ=" />
+    <Method N="[System.Runtime.CompilerServices.CallConvThiscall] Void &lt;CrtImplementationDetails&gt;.LanguageSupport.Initialize([System.Runtime.CompilerServices.IsConst] [System.Runtime.CompilerServices.IsConst] &lt;CrtImplementationDetails&gt;.LanguageSupport*)" ON="KhQ=" />
+    <Method N="Void .cctor()" />
+    <Method N="[System.Runtime.CompilerServices.CallConvThiscall] gcroot&lt;System::String ^&gt;* gcroot&lt;System::String ^&gt;.{ctor}([System.Runtime.CompilerServices.IsConst] [System.Runtime.CompilerServices.IsConst] gcroot&lt;System::String ^&gt;*)" ON="KxQ=" />
+    <Method N="[System.Runtime.CompilerServices.CallConvThiscall] Void gcroot&lt;System::String ^&gt;.{dtor}([System.Runtime.CompilerServices.IsConst] [System.Runtime.CompilerServices.IsConst] gcroot&lt;System::String ^&gt;*)" ON="LBQ=" />
+    <Method N="[System.Runtime.CompilerServices.IsImplicitlyDereferenced] gcroot&lt;System::String ^&gt;* gcroot&lt;System::String ^&gt;.=([System.Runtime.CompilerServices.IsConst] [System.Runtime.CompilerServices.IsConst] gcroot&lt;System::String ^&gt;* t, String)" ON="LRQ=" />
+    <Method N="String gcroot&lt;System::String ^&gt;..P$AAVString@System@@([System.Runtime.CompilerServices.IsConst] [System.Runtime.CompilerServices.IsConst] [System.Runtime.CompilerServices.IsConst] gcroot&lt;System::String ^&gt;*)" ON="LxQ=" />
+    <Method N="Void ___CxxCallUnwindDtor(Void *(Void*) pDtor, Void* pThis)" ON="MBQ=" />
+    <Method N="[System.Runtime.CompilerServices.IsBoxed] [System.Runtime.InteropServices.GCHandle] System.ValueType &lt;CrtImplementationDetails&gt;.AtExitLock._handle()" ON="MxQ=" />
+    <Method N="Void &lt;CrtImplementationDetails&gt;.AtExitLock._lock_Set(Object value)" ON="NBQ=" />
+    <Method N="Object &lt;CrtImplementationDetails&gt;.AtExitLock._lock_Get()" ON="NhQ=" />
+    <Method N="[System.Runtime.CompilerServices.CallConvCdecl] Void &lt;CrtImplementationDetails&gt;.AtExitLock._lock_Destruct()" ON="NxQ=" />
+    <Method N="[System.Runtime.CompilerServices.CallConvCdecl] Boolean &lt;CrtImplementationDetails&gt;.AtExitLock.IsInitialized()" ON="OBQ=" />
+    <Method N="[System.Runtime.CompilerServices.CallConvCdecl] Void &lt;CrtImplementationDetails&gt;.AtExitLock.AddRef()" ON="OhQ=" />
+    <Method N="[System.Runtime.CompilerServices.CallConvCdecl] Boolean ?A0xc9f6eb9e.__alloc_global_lock()" ON="OxQ=" />
+    <Method N="[System.Runtime.CompilerServices.CallConvCdecl] Void ?A0xc9f6eb9e.__dealloc_global_lock()" ON="PRQ=" />
+    <Method N="Void _exit_callback()" ON="PhQ=" />
+    <Method N="Int32 _initatexit_m()" ON="PxQ=" />
+    <Method N="Int32 _initatexit_app_domain()" ON="QBQ=" />
+    <Method N="Void _app_exit_callback()" ON="QRQ=" />
+    <Method N="Void* DecodePointer(Void* Ptr)" ON="QhQ=" />
+    <Method N="Void* _encoded_null()" ON="RBQ=" />
+    <Method N="Void* EncodePointer(Void* Ptr)" ON="RRQ=" />
+    <Method N="Int32 _initterm_e([System.Runtime.CompilerServices.CallConvCdecl] Int32 *()* pfbegin, [System.Runtime.CompilerServices.CallConvCdecl] Int32 *()* pfend)" ON="RxQ=" />
+    <Method N="Void _initterm([System.Runtime.CompilerServices.CallConvCdecl] Void *()* pfbegin, [System.Runtime.CompilerServices.CallConvCdecl] Void *()* pfend)" ON="ShQ=" />
+    <Method N="System.ModuleHandle &lt;CrtImplementationDetails&gt;.ThisModule.Handle()" ON="TRQ=" />
+    <Method N="Void _initterm_m([System.Runtime.CompilerServices.IsConst] [System.Runtime.CompilerServices.IsConst] Void* *()* pfbegin, [System.Runtime.CompilerServices.IsConst] [System.Runtime.CompilerServices.IsConst] Void* *()* pfend)" ON="ThQ=" />
+    <Method N="[System.Runtime.CompilerServices.IsConst] Void* *() &lt;CrtImplementationDetails&gt;.ThisModule.ResolveMethod&lt;void const * __clrcall(void)&gt;([System.Runtime.CompilerServices.IsConst] Void* *() methodToken)" ON="URQ=" />
+    <Method N="[System.Runtime.CompilerServices.CallConvStdcall] Void* CreateThread(_SECURITY_ATTRIBUTES*, [System.Runtime.CompilerServices.IsLong] UInt32, [System.Runtime.CompilerServices.CallConvStdcall] [System.Runtime.CompilerServices.IsLong] UInt32 *(Void*), Void*, [System.Runtime.CompilerServices.IsLong] UInt32, [System.Runtime.CompilerServices.IsLong] UInt32*)" ON="CreateThread" />
+    <Method N="[System.Runtime.CompilerServices.CallConvStdcall] Void msSendPacketA([System.Runtime.CompilerServices.IsConst] [System.Runtime.CompilerServices.IsSignUnspecifiedByte] SByte*)" />
+    <Method N="[System.Runtime.CompilerServices.CallConvCdecl] Int32 rand()" />
+    <Method N="[System.Runtime.CompilerServices.CallConvStdcall] Void ExitThread([System.Runtime.CompilerServices.IsLong] UInt32)" />
+    <Method N="[System.Runtime.CompilerServices.CallConvStdcall] Int16 GetAsyncKeyState(Int32)" />
+    <Method N="[System.Runtime.CompilerServices.CallConvStdcall] Void Sleep([System.Runtime.CompilerServices.IsLong] UInt32)" />
+    <Method N="[System.Runtime.CompilerServices.CallConvCdecl] Int32 sprintf([System.Runtime.CompilerServices.IsSignUnspecifiedByte] SByte*, [System.Runtime.CompilerServices.IsConst] [System.Runtime.CompilerServices.IsSignUnspecifiedByte] SByte*)" />
+    <Method N="[System.Runtime.CompilerServices.CallConvCdecl] Void* _getFiberPtrId()" />
+    <Method N="[System.Runtime.CompilerServices.CallConvCdecl] Void _amsg_exit(Int32)" />
+    <Method N="[System.Runtime.CompilerServices.CallConvCdecl] Void __security_init_cookie()" />
+    <Method N="[System.Runtime.CompilerServices.CallConvCdecl] Void _cexit()" />
+    <Method N="[System.Runtime.CompilerServices.CallConvCdecl] Int32 __FrameUnwindFilter(_EXCEPTION_POINTERS*)" ON="__FrameUnwindFilter" />
+    <Field N="??_C@_00CNPNBAHC@?$AA@" ON="oRM=" />
+    <Field N="??_C@_0N@PMBGLLLH@28?58A?551?501?5?$AA@" ON="ohM=" />
+    <Field N="??_C@_0N@JGCBCJGC@59?5FF?551?501?5?$AA@" ON="oxM=" />
+    <Field N="??_C@_0N@HDMMDBHC@CC?5D5?54D?500?5?$AA@" ON="pBM=" />
+    <Field N="??_C@_0N@FCBOJPGO@4B?56C?5E6?500?5?$AA@" ON="pRM=" />
+    <Field N="??_C@_0N@NHODLODL@29?55D?520?500?5?$AA@" ON="phM=" />
+    <Field N="??_C@_0N@BJFGODBL@C9?5E3?521?500?5?$AA@" ON="pxM=" />
+    <Field N="??_C@_0N@DAGOFIEP@69?56A?523?500?5?$AA@" ON="qBM=" />
+    <Field N="??_C@_0N@OGBNCDEL@09?526?531?500?5?$AA@" ON="qRM=" />
+    <Field N="??_C@_0N@FAKNGPAL@77?535?594?500?5?$AA@" ON="qhM=" />
+    <Field N="??_C@_0N@KNMHFGBI@28?523?500?500?5?$AA@" ON="qxM=" />
+    <Field N="??_C@_04JFFKLGJF@?$CF02X?$AA@" ON="rBM=" />
+    <Field N="KOExploitToggle" ON="rRM=" />
+    <Field N="skillHEX" ON="rhM=" />
+    <Field N="OptionValue" ON="rxM=" />
+    <Field N="KeyboardKey" ON="sBM=" />
+    <Field N="GameMode" ON="sRM=" />
+    <Field N="KeyboardKey2" ON="shM=" />
+    <Field N="Skill" ON="sxM=" />
+    <Field N="SkillLevel" ON="tBM=" />
+    <Field N="__unep@?KOExploitFunc@@$$FYAXXZ" ON="tRM=" />
+    <Field N="_GUID_90f1a06e_7712_4762_86b5_7a5eba6bdb02" ON="thM=" />
+    <Field N="_GUID_cb2f6722_ab3a_11d2_9c40_00c04fa30a3e" ON="txM=" />
+    <Field N="?A0xfd8b67b9.__xc_mp_z" ON="uBM=" />
+    <Field N="?Uninitialized@CurrentDomain@&lt;CrtImplementationDetails&gt;@@$$Q2HA" ON="uRM=" />
+    <Field N="?A0xfd8b67b9.?Uninitialized$initializer$@CurrentDomain@&lt;CrtImplementationDetails&gt;@@$$Q2P6MXXZA" ON="uhM=" />
+    <Field N="?A0xfd8b67b9.__xi_vt_a" ON="uxM=" />
+    <Field N="?InitializedPerAppDomain@CurrentDomain@&lt;CrtImplementationDetails&gt;@@$$Q2W4State@Progress@2@A" ON="vBM=" />
+    <Field N="?A0xfd8b67b9.?InitializedPerAppDomain$initializer$@CurrentDomain@&lt;CrtImplementationDetails&gt;@@$$Q2P6MXXZA" ON="vRM=" />
+    <Field N="?IsDefaultDomain@CurrentDomain@&lt;CrtImplementationDetails&gt;@@$$Q2_NA" ON="vhM=" />
+    <Field N="?A0xfd8b67b9.?IsDefaultDomain$initializer$@CurrentDomain@&lt;CrtImplementationDetails&gt;@@$$Q2P6MXXZA" ON="vxM=" />
+    <Field N="?A0xfd8b67b9.__xc_ma_a" ON="wBM=" />
+    <Field N="?InitializedNative@CurrentDomain@&lt;CrtImplementationDetails&gt;@@$$Q2W4State@Progress@2@A" ON="wRM=" />
+    <Field N="?A0xfd8b67b9.?InitializedNative$initializer$@CurrentDomain@&lt;CrtImplementationDetails&gt;@@$$Q2P6MXXZA" ON="whM=" />
+    <Field N="?Initialized@CurrentDomain@&lt;CrtImplementationDetails&gt;@@$$Q2HA" ON="wxM=" />
+    <Field N="?A0xfd8b67b9.?Initialized$initializer$@CurrentDomain@&lt;CrtImplementationDetails&gt;@@$$Q2P6MXXZA" ON="xBM=" />
+    <Field N="?A0xfd8b67b9.__xc_ma_z" ON="xRM=" />
+    <Field N="?InitializedVtables@CurrentDomain@&lt;CrtImplementationDetails&gt;@@$$Q2W4State@Progress@2@A" ON="xhM=" />
+    <Field N="?A0xfd8b67b9.?InitializedVtables$initializer$@CurrentDomain@&lt;CrtImplementationDetails&gt;@@$$Q2P6MXXZA" ON="xxM=" />
+    <Field N="_GUID_cb2f6723_ab3a_11d2_9c40_00c04fa30a3e" ON="yBM=" />
+    <Field N="?A0xfd8b67b9.__xi_vt_z" ON="yRM=" />
+    <Field N="?InitializedPerProcess@CurrentDomain@&lt;CrtImplementationDetails&gt;@@$$Q2W4State@Progress@2@A" ON="yhM=" />
+    <Field N="?A0xfd8b67b9.?InitializedPerProcess$initializer$@CurrentDomain@&lt;CrtImplementationDetails&gt;@@$$Q2P6MXXZA" ON="yxM=" />
+    <Field N="?InitializedPerProcess@DefaultDomain@&lt;CrtImplementationDetails&gt;@@2_NA" ON="zBM=" />
+    <Field N="?Entered@DefaultDomain@&lt;CrtImplementationDetails&gt;@@2_NA" ON="zRM=" />
+    <Field N="?InitializedNative@DefaultDomain@&lt;CrtImplementationDetails&gt;@@2_NA" ON="zhM=" />
+    <Field N="?Count@AllDomains@&lt;CrtImplementationDetails&gt;@@2HA" ON="zxM=" />
+    <Field N="?hasNative@DefaultDomain@&lt;CrtImplementationDetails&gt;@@0W4State@TriBool@2@A" ON="0BM=" />
+    <Field N="?hasPerProcess@DefaultDomain@&lt;CrtImplementationDetails&gt;@@0W4State@TriBool@2@A" ON="0RM=" />
+    <Field N="?InitializedNativeFromCCTOR@DefaultDomain@&lt;CrtImplementationDetails&gt;@@2_NA" ON="0hM=" />
+    <Field N="?A0xfd8b67b9.__xc_mp_a" ON="0xM=" />
+    <Field N="_GUID_90f1a06c_7712_4762_86b5_7a5eba6bdb02" ON="1BM=" />
+    <Field N="__unep@?DoNothing@DefaultDomain@&lt;CrtImplementationDetails&gt;@@$$FCGJPAX@Z" ON="1RM=" />
+    <Field N="__unep@?_UninitializeDefaultDomain@LanguageSupport@&lt;CrtImplementationDetails&gt;@@$$FCGJPAX@Z" ON="1hM=" />
+    <Field N="__exit_list_size_app_domain" ON="1xM=" />
+    <Field N="__onexitbegin_app_domain" ON="2BM=" />
+    <Field N="?A0xc9f6eb9e.__exit_list_size" ON="2RM=" />
+    <Field N="__onexitend_app_domain" ON="2hM=" />
+    <Field N="?A0xc9f6eb9e.__onexitbegin_m" ON="2xM=" />
+    <Field N="?A0xc9f6eb9e.__onexitend_m" ON="3BM=" />
+    <Field N="?_lock@AtExitLock@&lt;CrtImplementationDetails&gt;@@$$Q0PAXA" ON="3RM=" />
+    <Field N="?_ref_count@AtExitLock@&lt;CrtImplementationDetails&gt;@@$$Q0HA" ON="3hM=" />
+    <Field N="__xc_z" ON="3xM=" />
+    <Field N="__native_vcclrit_reason" ON="4BM=" />
+    <Field N="__xc_a" ON="4RM=" />
+    <Field N="__xi_a" ON="4hM=" />
+    <Field N="__native_startup_state" ON="4xM=" />
+    <Field N="__xi_z" ON="5BM=" />
+    <Field N="__native_startup_lock" ON="5RM=" />
+    <Field N="__native_dllmain_reason" ON="5hM=" />
+  </Type>
+  <Type N="PVPTool.MainFRM">
+    <Method N="Void .ctor()" />
+    <Method N="Void ~MainFRM()" ON="dxQ=" />
+    <Method N="Void InitializeComponent()" ON="eBQ=" />
+    <Method N="Void timer1_Tick(Object sender, System.EventArgs e)" ON="eRQ=" />
+    <Method N="Void checkBox1_CheckedChanged(Object sender, System.EventArgs e)" ON="fBQ=" />
+    <Method N="Void timer2_Tick(Object sender, System.EventArgs e)" ON="fxQ=" />
+    <Method N="Void Dispose(Boolean)" />
+    <Field N="menuStrip1" ON="UxQ=" />
+    <Field N="fileToolStripMenuItem" ON="VBQ=" />
+    <Field N="exitToolToolStripMenuItem" ON="VRQ=" />
+    <Field N="toolStripSeparator1" ON="VhQ=" />
+    <Field N="suggestionsToolStripMenuItem" ON="VxQ=" />
+    <Field N="tabControl1" ON="WBQ=" />
+    <Field N="tabPage1" ON="WRQ=" />
+    <Field N="comboBox3" ON="WhQ=" />
+    <Field N="label4" ON="WxQ=" />
+    <Field N="comboBox2" ON="XBQ=" />
+    <Field N="numericUpDown1" ON="XRQ=" />
+    <Field N="comboBox1" ON="XhQ=" />
+    <Field N="checkBox1" ON="XxQ=" />
+    <Field N="label3" ON="YBQ=" />
+    <Field N="label2" ON="YRQ=" />
+    <Field N="label1" ON="YhQ=" />
+    <Field N="tabPage2" ON="YxQ=" />
+    <Field N="checkBox2" ON="ZBQ=" />
+    <Field N="panel2" ON="ZRQ=" />
+    <Field N="comboBox4" ON="ZhQ=" />
+    <Field N="label6" ON="ZxQ=" />
+    <Field N="panel1" ON="aBQ=" />
+    <Field N="numericUpDown2" ON="aRQ=" />
+    <Field N="label5" ON="ahQ=" />
+    <Field N="groupBox1" ON="axQ=" />
+    <Field N="radioButton2" ON="bBQ=" />
+    <Field N="radioButton1" ON="bRQ=" />
+    <Field N="tabPage3" ON="bhQ=" />
+    <Field N="tabControl2" ON="bxQ=" />
+    <Field N="tabPage4" ON="cBQ=" />
+    <Field N="tabPage5" ON="cRQ=" />
+    <Field N="timer1" ON="chQ=" />
+    <Field N="textBox1" ON="cxQ=" />
+    <Field N="label7" ON="dBQ=" />
+    <Field N="timer2" ON="dRQ=" />
+    <Field N="components" ON="dhQ=" />
+  </Type>
+  <Type N="&lt;CppImplementationDetails&gt;.$ArrayType$$$BY00$$CBD" ON="gxQ=.ghQ=" />
+  <Type N="&lt;CppImplementationDetails&gt;.$ArrayType$$$BY04$$CBD" ON="gxQ=.hBQ=" />
+  <Type N="&lt;CppImplementationDetails&gt;.$ArrayType$$$BY0N@$$CBD" ON="gxQ=.hRQ=" />
+  <Type N="_GUID" ON="hhQ=" />
+  <Type N="_SECURITY_ATTRIBUTES" ON="hxQ=" />
+  <Type N="&lt;CppImplementationDetails&gt;.$ArrayType$$$BY01D" ON="gxQ=.iBQ=" />
+  <Type N="&lt;CrtImplementationDetails&gt;.ModuleLoadException" ON="ihQ=.iRQ=">
+    <Method N="Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)" />
+    <Method N="Void .ctor(String message, System.Exception innerException)" />
+    <Method N="Void .ctor(String message)" />
+    <Field N="Nested" ON="ixQ=" />
+  </Type>
+  <Type N="&lt;CrtImplementationDetails&gt;.ModuleLoadExceptionHandlerException" ON="ihQ=.jBQ=">
+    <Property N="NestedException" ON="khQ=">
+      <Getter N="System.Exception get_NestedException()" ON="kxQ=" />
+      <Setter N="Void set_NestedException(System.Exception __set_formal)" ON="lBQ=" />
+    </Property>
+    <Method N="Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)" />
+    <Method N="Void .ctor(String message, System.Exception innerException, System.Exception nestedException)" />
+    <Method N="String ToString()" />
+    <Method N="Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)" />
+    <Field N="formatString" ON="jRQ=" />
+    <Field N="&lt;backing_store&gt;NestedException" ON="jhQ=" />
+  </Type>
+  <Type N="&lt;CrtImplementationDetails&gt;.ModuleUninitializer" ON="ihQ=.lhQ=">
+    <Method N="Void AddHandler(System.EventHandler handler)" ON="mRQ=" />
+    <Method N="Void .cctor()" />
+    <Method N="Void .ctor()" />
+    <Method N="Void SingletonDomainUnload(Object source, System.EventArgs arguments)" ON="mxQ=" />
+    <Field N="lock" ON="lxQ=" />
+    <Field N="_ModuleUninitializer" ON="mBQ=" />
+  </Type>
+  <Type N="IUnknown" ON="nhQ=" />
+  <Type N="&lt;CrtImplementationDetails&gt;.LanguageSupport" ON="ihQ=.nxQ=" />
+  <Type N="gcroot&lt;System::String ^&gt;" ON="oBQ=" />
+  <Type N="__s_GUID" ON="oRQ=" />
+  <Type N="&lt;CppImplementationDetails&gt;.$ArrayType$$$BY00Q6MPBXXZ" ON="gxQ=.ohQ=" />
+  <Type N="&lt;CrtImplementationDetails&gt;.Progress" ON="ihQ=.oxQ=" />
+  <Type N="&lt;CrtImplementationDetails&gt;.Progress+State" ON="ihQ=.oxQ=+State" />
+  <Type N="&lt;CppImplementationDetails&gt;.$ArrayType$$$BY0A@P6AXXZ" ON="gxQ=.pBQ=" />
+  <Type N="&lt;CppImplementationDetails&gt;.$ArrayType$$$BY0A@P6AHXZ" ON="gxQ=.pRQ=" />
+  <Type N="__enative_startup_state" ON="phQ=" />
+  <Type N="ICorRuntimeHost" ON="pxQ=" />
+  <Type N="&lt;CrtImplementationDetails&gt;.TriBool" ON="ihQ=.qBQ=" />
+  <Type N="&lt;CrtImplementationDetails&gt;.TriBool+State" ON="ihQ=.qBQ=+State" />
+  <Type N="ICLRRuntimeHost" ON="qRQ=" />
+  <Type N="_EXCEPTION_POINTERS" ON="qhQ=" />
+  <Type N="&lt;CrtImplementationDetails&gt;.ThisModule" ON="ihQ=.qxQ=" />
+</Module>
+</CliSecure>
